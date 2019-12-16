@@ -12,7 +12,7 @@
 		</style> 
 	`;
 
-	class Box extends HTMLElement {
+	class ColoredBox extends HTMLElement {
 		constructor() {
 			super(); 
 			let shadowRoot = this.attachShadow({mode: "open"});
@@ -37,6 +37,5 @@
 			}
 		}
 	}
-
 	customElements.define("com-sample-box", Box);
 })();
