@@ -4,7 +4,7 @@
 	"name": "Box",
 	"description": "A colored box",
 	"newInstancePrefix": "Box",
-	"icon": "https://sap-bo.sulzer.de/customwidgets/box/icon.png",
+	"icon": "https://dchavezr.github.io/CustomWidgets/icon.png",
 	"vendor": "Sample",
 	"eula": "",
 	"license": "",
@@ -12,21 +12,21 @@
 		{
 			"kind": "main",
 			"tag": "com-sample-box",
-			"url": "https://sap-bo.sulzer.de/customwidgets/box/box.js",
+			"url": "https://dchavezr.github.io/CustomWidgets/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-sample-box-sps",
-			"url": "https://sap-bo.sulzer.de/customwidgets/box/box_sps.js",
+			"url": "https://dchavezr.github.io/CustomWidgets/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-sample-box-bps",
-			"url": "https://sap-bo.sulzer.de/customwidgets/box/box_bps.js",
+			"url": "https://dchavezr.github.io/CustomWidgets/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
