@@ -12,21 +12,21 @@
 		{
 			"kind": "main",
 			"tag": "com-sample-box",
-			"url": "https://dchavezr.github.io/CustomWidgets/coloredbox.js",
+			"url": "https://dchavezr.github.io/CustomWidgets/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-sample-box-styling",
-			"url": "https://dchavezr.github.io/CustomWidgets/coloredbox_styling.js",
+			"url": "https://dchavezr.github.io/CustomWidgets/box_styling.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-sample-box-builder",
-			"url": "https://dchavezr.github.io/CustomWidgets/coloredbox_builder.js",
+			"url": "https://dchavezr.github.io/CustomWidgets/box_builder.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
