@@ -1,5 +1,5 @@
 {
-	"id": "com.sample.box",
+	"id": "com.sample.coloredbox",
 	"version": "1.0.0",
 	"name": "Box",
 	"description": "A colored box",
@@ -18,15 +18,15 @@
 		},
 		{
 			"kind": "styling",
-			"tag": "com-sample-box-sps",
-			"url": "https://dchavezr.github.io/CustomWidgets/box_sps.js",
+			"tag": "com-sample-box-styling",
+			"url": "https://dchavezr.github.io/CustomWidgets/box_styling.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
-			"tag": "com-sample-box-bps",
-			"url": "https://dchavezr.github.io/CustomWidgets/box_bps.js",
+			"tag": "com-sample-box-builder",
+			"url": "https://dchavezr.github.io/CustomWidgets/box_builder.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}

@@ -7,7 +7,7 @@
 				<table>
 					<tr>
 						<td>Opacity</td>
-						<td><input id="bps_opacity" type="text" size="5" maxlength="5"></td>
+						<td><input id="builder_opacity" type="text" size="5" maxlength="5"></td>
 					</tr>
 				</table>
 				<input type="submit" style="display:none;">
@@ -21,7 +21,7 @@
 		</style>
 	`;
 
-	class BoxBps extends HTMLElement {
+	class BoxBuilderPanel extends HTMLElement {
 		constructor() {
 			super();
 			this._shadowRoot = this.attachShadow({mode: "open"});
@@ -41,13 +41,13 @@
 		}
 
 		set opacity(newOpacity) {
-			this._shadowRoot.getElementById("bps_opacity").value = newOpacity;
+			this._shadowRoot.getElementById("builder_opacity").value = newOpacity;
 		}
 
 		get opacity() {
-			return this._shadowRoot.getElementById("bps_opacity").value;
+			return this._shadowRoot.getElementById("builder_opacity").value;
 		}
 	}
 
-	customElements.define("com-sample-box-bps", BoxBps);
+	customElements.define("com-sample-box-builder", BoxBuilderPanel);
 })();
